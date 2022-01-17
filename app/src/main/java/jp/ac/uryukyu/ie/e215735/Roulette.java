@@ -6,6 +6,7 @@ public class Roulette {
     
        Random rnd = new Random();
        this.bullet = rnd.nextInt(6);/*銃には六発の弾丸を込めることができ、
+<<<<<<< HEAD
                                     その中のランダムな場所に弾を込める*/
     }
     public int getBullet(){
@@ -13,6 +14,11 @@ public class Roulette {
     }
 
 
+=======
+                                     その中のランダムな場所に弾を込める*/
+        return this.bullet;    
+    }
+>>>>>>> 3f312ceece4c417a6c919c2c81feaa7bfd5d531b
 }
     
 
